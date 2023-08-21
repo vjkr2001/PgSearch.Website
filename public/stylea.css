@@ -1,0 +1,163 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+.header-section {
+display: flex;
+align-items: center;
+padding: 10px;
+padding-top: 15px;;
+}
+
+h2 {
+margin-right: 40px;
+}
+
+.search-bar1 {
+display: flex;
+align-items: center;
+position: relative;
+}
+
+.search-bar1 input[type="text"] {
+padding: 7px;
+border: 1px solid #ccc;
+border-radius: 17px;
+outline: none;
+padding-right: 30px; /* Ensure space for the icon */
+width:200px;
+}
+
+.search-icon {
+position: absolute;
+top: 50%;
+right: 10px;
+transform: translateY(-50%);
+color: #777;
+}
+
+
+header {
+font-family: 'Fira Sans', sans-serif;
+background-color: white;
+color: black;
+padding: 5px 0;
+}
+
+#head-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+
+h2 {
+font-size: 28px;
+}
+
+.navbar ul {
+list-style: none;
+}
+
+.menu li {
+display: inline;
+margin-right: 20px;
+}
+
+.menu li a {
+text-decoration: none;
+color: black;
+}
+
+.callBtn {
+background-color: #f39c12;
+padding: 8px 16px;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+text-decoration: none;
+}
+
+.callBtn:hover {
+background-color: #e67e22;
+}
+.about-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+  background-color:#ccc;
+}
+
+.about-content {
+  padding: 40px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.About-us {
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 100%;
+  color:#ced4da;
+}
+
+.About-us h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.About-us span {
+  color: #3498db;
+}
+
+.About-us img {
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.About-us p {
+  font-size: 18px;
+  color: black;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.About-us h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Social media icons */
+.About-us a {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.About-us a:hover {
+  color: #3498db;
+}
+
+/* Style the callBtn wrapper */
+.callBtn-wrapper {
+  position: fixed;
+  top: 50%;
+  right: -60px;
+  transform: rotate(90deg);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.callBtn-wrapper a{
+color: white;
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script>
+</head>
+<body>
+    {{!-- Empty body, since results will be populated using JavaScript --}}
+    <div class="search-results">
+        {{#each results}}
+        <div class="pg-box">
+            <h2>{{pgname}}</h2>
+            <p>Location: {{locality}}, {{location}}</p>
+            <p>Room Type: {{share_option}} Share</p>
+            <p class="price">Price: {{price}}</p>
+            <p>Owner: {{ownername}}</p>
+            <p>Contact: {{contactnumber}}</p>
+        </div>
+        {{/each}}
+    </div>
+</body>
+</html>

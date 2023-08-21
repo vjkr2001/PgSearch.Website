@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+</head>
+<body>
+    {{!-- Navigation links --}}
+    <header>
+    <div id = "head-container">
+    
+      <div class = "header-section">
+        <h2>Search.</h2>  
+        <div class="search-bar1">
+                <input type="text" placeholder="Search...">
+                <a href="#" class="search-icon">
+                    <i class="fas fa-search"></i>
+                </a>
+        </div>  
+      </div>
+      <div class = "header-section">
+        <nav class = "navbar">
+          <ul class= "menu">
+            <li><a href="/home2">Home</a></li>
+       <!-- <li><a href="/login">Login</a></li>
+            <li><a href="/register">Register</a></li> -->
+            <li><a href = "#" class = "list">About us</a></li>
+            <li><a href = "#" class = "callBtn">Request a Call back</a></li>
+            <li><a href="/logout" class="callBtn">Logout</a></li>
+
+          </ul>  
+        </nav>
+      </div>  
+    </div>   
+    </header>
+
+    {{!-- Body --}}
+    
+  <main>
+  
+    <div class = "main-container">
+      
+        <h3>Welcome to <span>Search.</span> website</h3>
+        <p>Find the perfect PG accommodation for your needs. Browse our listings and connect with owners.</p>
+        <div class="search-bar">
+         <select id="city-dropdown">
+             <option value="bangalore">Bangalore</option>
+             <option value="delhi">Delhi</option>
+             <option value="mumbai">Mumbai</option>
+             <option value="chennai">Chennai</option>
+             <!-- Add more cities as needed -->
+         </select>
+            <input type="text" id="location" placeholder="Enter locality">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="search-options">
+          <!-- Dropdown for Room Type -->
+          <select id="room-type-dropdown">
+            <option>Room type</option>  
+            <option value="1">1 Share</option>
+            <option value="2">2 Share</option>
+            <option value="3">3 Share</option>
+            <option value="4">4 Share</option>
+          </select>     
+           <!-- Dropdown for Availability -->
+           <select id="availability-dropdown">
+              <option>Availability</option> 
+              <option value="immediately">Immediately</option>
+              <option value="15">Within 15 Days</option>
+              <option value="30">Within 30 Days</option>
+            </select>
+          </div>
+      
+    </div>
+    
+    <div class="second-container">
+      <div class="room-info">
+        <h2>Step into a New life</h2>
+        <p>Embrace a new chapter in your life by stepping into comfort,convenience, and community. Your journey begins here, where every detail is crafted to make you feel at home.</p>
+      </div>
+    </div>
+    
+    <div class="second-third-divider">
+      <img src="curved-arrow.png" alt="Divider Image">
+    </div>
+    
+    <div class="third-container">
+      <div class="content">
+          <h2><span>Hassele free,</span> Living</h2>
+          <p>Welcome to a world where chores are a thing of the past. Say goodbye to cleaning, cooking, and laundry. Your new home comes with hassle-free living, allowing you to focus on what truly matters – living your life to the fullest.</p>
+      </div>
+      <div class="image">
+          <img src="services.png" alt="Hassle-Free Living">
+      </div>
+    </div>
+  
+ 
+  </main>
+    
+</body>
+</html>
